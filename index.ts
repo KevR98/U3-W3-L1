@@ -44,7 +44,7 @@ const sum = (a: number, b: number): number => {
 /* RISPOSTA */
 
 const price = (n: number): number => {
-  return n * 1.22;
+  return n * 0.22;
 };
 
 // 6) Crea una funzione che concateni due stringhe e restituisca la lunghezza totale.
@@ -129,7 +129,7 @@ type Studente = {
   voto: number;
 };
 
-const arr: Studente[] = [{ nome: 'Kevin', voto: 30 }];
+const arr: Array<Studente> = [{ nome: 'Kevin', voto: 30 }];
 
 // 16) Crea un'interfaccia base "Veicolo" e estendila per creare "Auto".
 

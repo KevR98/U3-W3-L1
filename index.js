@@ -29,7 +29,7 @@ var sum = function (a, b) {
 // 5) Crea una funzione che accetti un prezzo e restituisca il prezzo con IVA (22%). Usa i tipi appropriati.
 /* RISPOSTA */
 var price = function (n) {
-    return n * 1.22;
+    return n * 0.22;
 };
 // 6) Crea una funzione che concateni due stringhe e restituisca la lunghezza totale.
 /* RISPOSTA */
